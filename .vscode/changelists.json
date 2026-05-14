@@ -1,0 +1,22 @@
+{
+  "changelists": [
+    {
+      "name": "Default",
+      "files": [
+        "README.md",
+        ".vscode/changelists.json",
+        ".gitignore",
+        "figs/FrameworkofECA6_1.jpg",
+        "model/ECAttention.py",
+        "utils.py",
+        "environment.yml",
+        "main.py",
+        "engine.py",
+        "datasets.py",
+        "losses.py",
+        "run_with_submitit.py"
+      ]
+    }
+  ],
+  "active": "Default"
+}

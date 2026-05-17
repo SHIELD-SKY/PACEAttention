@@ -6,7 +6,9 @@ Inspired by the **geometric interpretation** of the gradients of the maximal cod
 # Lay Summary
 Deep neural networks are often powerful but difficult to interpret, making it unclear why they work well or how their architectures should be designed. In this work, we propose PACEAttention, a new attention mechanism motivated by geometric principles from representation learning theory.
 
-Our method entails feature learning as a progressive process, where same-category feature representations are compressed into compact subspaces, while cross-category representations are expanded. This process is guided by the intrinsic structure of the data. The resulting model, PACENet, is both principled and efficient, and produces competitive performance on several classification benchmarks. 
+Our method entails feature learning as a progressive process, where same-category feature representations are compressed into compact subspaces, while cross-category representations are expanded. This process is guided by the intrinsic structure of the data. The resulting model, PACENet, is both principled and efficient, and produces competitive performance on several classification benchmarks.
+This design also makes PACENet easier to interpret, with different parts of the model naturally focusing on different image regions and fine details, even when trained using standard supervised learning.
+
 <!-- Deep neural networks are often powerful but difficult to interpret, making it unclear why they work well or how their architectures should be designed. In this work, we propose PACEAttention, a new attention mechanism motivated by geometric principles from representation learning theory.
 
 Our method views feature learning as a progressive process that compresses features belonging to the same category while separating features from different categories in a high-dimensional space. This process is guided by the intrinsic structure of the data, which we capture through a randomized mechanism based on random matrices.
